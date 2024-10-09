@@ -15,6 +15,12 @@ body {
     margin: 0;
 }
 
+header {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 1px;
+}
+
 h1 {
     font-size: 2rem;
     color: var(--bg-color);
@@ -30,14 +36,8 @@ nav {
 nav a {
     text-decoration: none;
     color: var(--bg-color);
-    margin: 0rem 2rem 1rem 0rem;
+    margin: 0 2rem 1rem 0rem;
     font-size: 1.2rem;
-}
-
-header {
-    background-color: var(--primary-color);
-    text-align: center;
-    padding: 1px;
 }
 
 nav a:hover {
@@ -50,7 +50,7 @@ nav a:hover {
     margin: 5rem;
 }
 
-.graficos-container_texto {
+.graficos-container__texto {
     font-size: 1.3rem;
     text-align: center;
     padding: 2rem;
